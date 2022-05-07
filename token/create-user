@@ -1,0 +1,5 @@
+# set user=username,user id,algorithm (ES256 or RS256)
+sudo snap set edgexfoundry env.security-proxy.user=user01,USER_ID,ES256
+
+# set public-key to the contents of a PEM-encoded public key file
+sudo snap set edgexfoundry env.security-proxy.public-key="$(cat public.pem)"

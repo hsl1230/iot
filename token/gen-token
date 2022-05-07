@@ -1,0 +1,5 @@
+# get token
+TOKEN=`edgexfoundry.secrets-config proxy jwt --algorithm ES256 --private_key private.pem --id USER_ID --expiration=10000h`
+
+# Keep this token in a safe place for future reuse as the same token cannot be regenerated or recovered using the secret-config CLI
+echo $TOKEN

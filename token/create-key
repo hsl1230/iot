@@ -1,0 +1,5 @@
+# Create private key:
+openssl ecparam -genkey -name prime256v1 -noout -out private.pem
+
+# Create public key:
+openssl ec -in private.pem -pubout -out public.pem

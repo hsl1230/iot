@@ -1,0 +1,1 @@
+curl -X PUT -H "Content-Type: application/json" -d '{"state":"TOGGLE"}' "http://localhost:5000/api/v2/device/name/0x00124b0025139c1e/changeState"

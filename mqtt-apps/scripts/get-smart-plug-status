@@ -1,0 +1,1 @@
+mosquitto_pub -t 'zigbee2mqtt/0x00124b0025139c1e/get' -m '{"state": ""}'

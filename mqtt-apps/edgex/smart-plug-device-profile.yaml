@@ -1,0 +1,36 @@
+name: "smart-plug-profle"
+manufacturer: "SONOFF"
+model: "S31-Lite-zb"
+labels:
+  - "smart plug"
+  - "SONOFF"
+description: "profile for smart plug"
+
+deviceResources:
+  - name: state 
+    description: "the state of the plug"
+    isHidden: false
+    tag: ""
+    properties:
+      valueType: String
+      readWrite: RW
+      units: ""
+      minimum: ""
+      maximum: ""
+      defaultValue: "TOGGLE"
+      mask: ""
+      shift: ""
+      scale: ""
+      offset: ""
+      base: ""
+      assertion: ""
+      mediaType: "application/json"
+    attributes: {}
+deviceCommands:
+  - name: "changeState"
+    isHidden: false
+    readWrite: W
+    resourceOperations:
+    - deviceResource: state
+      defaultValue: "TOGGLE"
+      mappings: {}
