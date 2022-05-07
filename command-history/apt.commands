@@ -1,0 +1,7 @@
+    2  sudo apt update
+   19  sudo apt autoremove
+   20  sudo apt upgrade
+   21  sudo apt install snapd
+   52  sudo apt-get install -y nodejs npm git make g++ gcc
+   84  sudo apt install -y mosquitto mosquitto-clients
+  431  sudo apt install python3-pip

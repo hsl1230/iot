@@ -1,0 +1,27 @@
+   21  sudo apt install snapd
+   22  sudo snap install edgex-ui
+   23  sudo snap install edgexfoundry
+   26  sudo snap install edgex-device-mqtt
+   27  sudo snap install edgex-app-service-configurable
+   29  snap services
+   30  sudo snap set edgexfoundry kuper=on
+   31  sudo snap set edgexfoundry app-service-configurable=on
+   32  sudo snap set edgexfoundry device-virtual=on
+   33  sudo snap set edgexfoundry support-notifications=on
+   34  sudo snap set edgexfoundry support-scheduler=on
+   35  sudo snap set edgexfoundry sys-mgmt-agent=on
+  286  sudo snap start --enable edgex-device-mqtt
+  304  sudo snap logs edgex-device-mqtt
+  310  sudo snap install snapcraft --classic
+  312  snapcraft
+  379  sudo snap connections
+  380  sudo snap connections edgex-device-mqtt
+  381  sudo snap connection edgex-device-mqtt:device-config
+  466  sudo snap install edgex-device-rest
+  468  snap services
+  469  sudo snap start --enable edgex-device-rest
+  569  sudo snap stop edgexfoundry.device-virtual
+  571  sudo snap set edgexfoundry device-virtual=false
+  572  sudo snap set edgexfoundry device-virtual=off
+  574  snap list
+  646  sudo snap logs edgexfoundry.kuiper

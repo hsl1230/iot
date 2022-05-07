@@ -1,0 +1,738 @@
+    1  snap
+    2  sudo apt update
+    3  sudo apt install snap
+    4  sudo snap install edgex-ui
+    5  snap
+    6  sudo apt install snap
+    7  snp
+    8  snap
+    9  exit
+   10  snap
+   11  sudo snap
+   12  exit
+   13  snap
+   14  sudo apt install snap
+   15  exit
+   16  snap
+   17  sudo apt update
+   18  sudo apt-get install snap
+   19  sudo apt autoremove
+   20  sudo apt upgrade
+   21  sudo apt install snapd
+   22  sudo snap install edgex-ui
+   23  sudo snap install edgexfoundry
+   24  snap services
+   25  sudo snap install edgex-mqtt
+   26  sudo snap install edgex-device-mqtt
+   27  sudo snap install edgex-app-service-configurable
+   28  ls
+   29  snap services
+   30  sudo snap set edgexfoundry kuper=on
+   31  sudo snap set edgexfoundry app-service-configurable=on
+   32  sudo snap set edgexfoundry device-virtual=on
+   33  sudo snap set edgexfoundry support-notifications=on
+   34  sudo snap set edgexfoundry support-scheduler=on
+   35  sudo snap set edgexfoundry sys-mgmt-agent=on
+   36  snap services
+   37  sudo snap set edgexfoundry kuiper=on
+   38  snap services
+   39  ls
+   40  pwd
+   41  ls
+   42  mkdir token
+   43  mkdir custom-config
+   44  cd custom-config
+   45  ls
+   46  mkdir devices
+   47  mkdir profiles
+   48  snap services
+   49  ls -l /dev/ttyACM0
+   50  ls -l /dev/
+   51  ls
+   52  sudo apt-get install -y nodejs npm git make g++ gcc
+   53  df -v
+   54  ls
+   55  pwd
+   56  cd ,
+   57  cd ..
+   58  ls
+   59  cd
+   60  pwd
+   61  ls
+   62  mkdir my-workspace
+   63  cd my-workspace/
+   64  mv ../custom-config/ .
+   65  ls
+   66  mv ../token/ .
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd my-workspace/
+   71  ls
+   72  node --version
+   73  npm --version
+   74  git clone https://github.com/koenkk/zigbee2mqtt.git
+   75  ls
+   76  cd zigbee2mqtt/
+   77  ls
+   78  vi package.json 
+   79  ls
+   80  cd ..
+   81  ls
+   82  sudo mv zigbee2mqtt /opt/zigbee2mqtt
+   83  ls
+   84  sudo apt install -y mosquitto mosquitto-clients
+   85  df -v
+   86  sudo systemctl enable mosquitto.service
+   87  mosquitto -v
+   88  ls
+   89  snap services
+   90  cd /opt
+   91  ls
+   92  cd /var
+   93  ls
+   94  cd snp
+   95  cd snap/
+   96  ls
+   97  cd edgex-device-mqtt/
+   98  ls
+   99  cd current
+  100  ls
+  101  cd config/
+  102  ls
+  103  v device-mqtt/
+  104  vi device-mqtt/
+  105  s
+  106  ls
+  107  cd device-mqtt/
+  108  ls
+  109  cd res/
+  110  ls
+  111  vi configuration.toml 
+  112  ls
+  113  cd devices/
+  114  ls
+  115  cat mqtt.test.device.toml 
+  116  cd ,
+  117  cd ..
+  118  ls
+  119  cd profiles/
+  120  ls
+  121  cat mqtt.test.device.profile.yml 
+  122  cd ..
+  123  cd
+  124  cd /var/snap/
+  125  ls
+  126  cd edgexfoundry/
+  127  ls
+  128  cd current
+  129  ls
+  130  cd redis/
+  131  ls
+  132  cd conf/
+  133  ls
+  134  vi redis.conf 
+  135  ls
+  136  ls -l
+  137  vi edgex_redis_acl.conf 
+  138  sudo vi edgex_redis_acl.conf 
+  139  ls
+  140  cd ..
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd redis
+  145  ls
+  146  cd ..
+  147  ls
+  148  pwd
+  149  ls
+  150  sudo netstat -tunlp
+  151  ls -l /mos*
+  152  ps -ef | grep 43191
+  153  ls -l /usr/sbin/mosquitto
+  154  cd /etc
+  155  ls -lrt mosquitto/
+  156  ls -lrt mosquitto
+  157  ls -lrt
+  158  ls -lrt | grep mos
+  159  cd mosquitto/
+  160  ls
+  161  sudo vi mosquitto.conf 
+  162  ls
+  163  cd ..
+  164  cd systemd/
+  165  vi zigbee2mqtt.service
+  166  sudo vi zigbee2mqtt.service
+  167  rm -f /tmp/zigbee2mqtt.service 
+  168  cat zigbee2mqtt.service 
+  169  ls /opt/zigbee2mqtt
+  170  ls
+  171  cd ..
+  172  s
+  173  ls
+  174  cd mosquitto/
+  175  ls
+  176  cat mosquitto.conf 
+  177  cd /opt
+  178  ls
+  179  cd zigbee2mqtt/
+  180  ls
+  181  npm ci
+  182  ls
+  183  cd data
+  184  s
+  185  ls
+  186  vi configuration.yaml 
+  187  cat configuration.yaml 
+  188  ls
+  189  vi configuration.yaml 
+  190  ls
+  191  ls /dev/ttyAC*
+  192  ls -l /dev/ttyAC*
+  193  sudo ls -l /dev/ttyAC*
+  194  ls -l /dev/serial/byid
+  195  sudo ls -l /dev/serial/byid
+  196  reboot
+  197  sudo snapcraft
+  198  ls /dev/serial/byid
+  199  ls /dev/serial/by-id
+  200  ls /dev/ttyAC*
+  201  sudo ls /dev/ttyAC*
+  202  sudo ls /dev/ttyACM*
+  203  sudo ls /dev/tty*
+  204  ls
+  205  pwd
+  206  cd opt
+  207  ls
+  208  cd /opt
+  209  ls
+  210  cd zigbee2mqtt/
+  211  ls
+  212  cd data
+  213  ls
+  214  vi configuration.yaml 
+  215  ls
+  216  cd ..
+  217  ls
+  218  vi configuration.yaml 
+  219  ls
+  220  cd dat
+  221  cd d
+  222  cd dat
+  223  cd data
+  224  ls
+  225  vi configuration.yaml 
+  226  ls
+  227  history | grep netstat
+  228  sudo netstat -tunlp
+  229  sudo netstat -tunlp | grep 1883
+  230  ls
+  231  cd ..
+  232  npm start
+  233  cd data
+  234  vi configuration.yaml 
+  235  cd ..
+  236  npm start
+  237  cd data
+  238  vi configuration.yaml 
+  239  cd ..
+  240  npm start
+  241  cd data
+  242  vi configuration.yaml 
+  243  cd ,,
+  244  cd ..
+  245  npm start
+  246  ls /dev/serial/
+  247  ls /dev/serial/by-id
+  248  ls
+  249  cd /var/snap
+  250  ls
+  251  cd edgex-device-mqtt/
+  252  ls
+  253  cd current
+  254  ls
+  255  cd device-mqtt/
+  256  ls
+  257  cd ..
+  258  cd config/
+  259  ls
+  260  cd device-mqtt/
+  261  ls
+  262  cd res
+  263  ls
+  264  sudo vi configuration.toml 
+  265  ls
+  266  cd ..
+  267  sudo mv res res.old
+  268  cp -fr /home/pi/my-workspace/edgex-config-provider/examples/device-mqtt/res .
+  269  sudo cp -fr /home/pi/my-workspace/edgex-config-provider/examples/device-mqtt/res .
+  270  ls
+  271  ls -lr
+  272  cd res
+  273  ls
+  274  ls -lrt
+  275  cd devices
+  276  ls
+  277  cat mqtt.snzb.device.toml 
+  278  ls
+  279  cd ..
+  280  ls
+  281  cd ..
+  282  ls
+  283  cd ..
+  284  cd
+  285  ls
+  286  sudo snap start --enable edgex-device-mqtt
+  287  snap services
+  288  cd my-workspace/
+  289  cd token/
+  290  ls
+  291  vi create-key
+  292  vi create-user
+  293  vi create-token
+  294  mv create-token gen-token
+  295  chmod +x *
+  296  s
+  297  ls
+  298  ./create-key 
+  299  ls
+  300  ./create-user
+  301  ls
+  302  ./gen-token 
+  303  ls
+  304  sudo snap logs edgex-device-mqtt
+  305  reboot
+  306  cd
+  307  cd my-workspace/
+  308  ls
+  309  snapcraft
+  310  sudo snap install snapcraft --classic
+  311  df -v
+  312  snapcraft
+  313  ls
+  314  git clone https://github.com/canonical/edgex-config-provider.git
+  315  ls
+  316  cd
+  317  cd my-workspace/
+  318  ls
+  319  cd custom-config/
+  320  ls
+  321  cd devices/
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd edgex-config-provider/
+  328  ls
+  329  cd examples/
+  330  ls
+  331  cd device-mqtt/
+  332  ls
+  333  cd res
+  334  ls
+  335  cd devices
+  336  ls
+  337  vi mqtt.test.device.toml 
+  338  mv mqtt.test.device.toml mqtt.snzb.device.toml 
+  339  vi mqtt.snzb.device.toml 
+  340  ls
+  341  cd ..
+  342  ls
+  343  cd profiles/
+  344  ls
+  345  mv mqtt.test.device.profile.yml mqtt.snzb.device.profile.yml
+  346  vi mqtt.snzb.device.profile.yml 
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd devices/
+  351  ls
+  352  v mqtt.snzb.device.toml 
+  353  vi mqtt.snzb.device.toml 
+  354  cd ..
+  355  ls
+  356  vi configuration.toml 
+  357  ls
+  358  cd dev
+  359  cd devices/
+  360  ls
+  361  vi mqtt.snzb.device.toml 
+  362  ls
+  363  cd ,,
+  364  cd ..
+  365  cd profiles
+  366  ls
+  367  vi mqtt.snzb.device.profile.yml 
+  368  ls
+  369  cd ..
+  370  ls
+  371  cd devices/
+  372  s
+  373  ls
+  374  cat mqtt.snzb.device.toml 
+  375  cd ..
+  376  ls
+  377  cat configuration.toml 
+  378  ls
+  379  sudo snap connections
+  380  sudo snap connections edgex-device-mqtt
+  381  sudo snap connection edgex-device-mqtt:device-config
+  382  cd /var/snap/
+  383  ls
+  384  cd 
+  385  cd my-workspace/
+  386  ls
+  387  cd edgex-config-provider/
+  388  ls
+  389  cd examples/
+  390  ls
+  391  cd device-mqtt/
+  392  ls
+  393  cd res/
+  394  ls
+  395  cat configuration.toml 
+  396  q!
+  397  ls
+  398  cd devices/
+  399  ls
+  400  cat mqtt.snzb.device.toml 
+  401  cd ..
+  402  cd profiles/
+  403  cat mqtt.snzb.device.profile.yml 
+  404  cd ..
+  405  cd..
+  406  cd ..
+  407  ls
+  408  cd snap/
+  409  ls
+  410  snapcraft
+  411  cd ..
+  412  snapcraft
+  413  sudo snapcraft
+  414  snap
+  415  snapcraft
+  416  sudo snapcraft
+  417  snapcraft
+  418  multipass find
+  419  ls
+  420  cd snap/
+  421  snapcraft
+  422  ls
+  423  cd ..
+  424  cd examples/
+  425  ls
+  426  cd device-mqtt/
+  427  ls
+  428  cd res
+  429  ls
+  430  pwd
+  431  sudo apt install python3-pip
+  432  sudo pip3 install --upgrade setuptools
+  433  pip
+  434  pip install paho-mqtt
+  435  python3 read-process-zigbee2mqtt.py 
+  436  cd
+  437  cd my-workspace/
+  438  cd token/
+  439  ls
+  440  ./gen-token 
+  441  cd /var/snap/
+  442  ls
+  443  cd edgex-device-mqtt/
+  444  ls
+  445  cd current
+  446  ls
+  447  cd config
+  448  ls
+  449  cd device-mqtt/
+  450  ls
+  451  cd res
+  452  ls
+  453  vi configuration.toml 
+  454  cd
+  455  cd my-workspace/
+  456  ls
+  457  mkdir mqtt-client
+  458  mv mqtt-client/ mqtt-apps
+  459  cd mqtt-apps/
+  460  ls
+  461  python3 read-process-zigbee2mqtt.py 
+  462  python3 process-zigbee2mqtt.py 
+  463  ls
+  464  pip install requests
+  465  ls
+  466  sudo snap install edgex-device-rest
+  467  ls
+  468  snap services
+  469  sudo snap start --enable edgex-device-rest
+  470  reboot
+  471  ls
+  472  cd /opt
+  473  ls
+  474  cd zigbee2mqtt/
+  475  ls
+  476  npm start
+  477  ls -lrt
+  478  ls
+  479  cd /oopt
+  480  ls
+  481  cd /opt
+  482  ls
+  483  cd zigbee2mqtt/
+  484  npm start
+  485  ls
+  486  vi changeState
+  487  chmod +x changeState 
+  488  ./changeState 
+  489  vi changeState
+  490  ./changeState 
+  491  ls
+  492  cd ..
+  493  ls
+  494  python3 createRESTDevice.py 
+  495  python3 createRESTDevice.py -ip localhost -devip localhost
+  496  vi changeState
+  497  ls
+  498  cd mqqt-device-gateway/
+  499  ls
+  500  vi changeState 
+  501  ls
+  502  cd ..
+  503  ls
+  504  history | grep mos
+  505  mosquitto_pub 
+  506  cd ..
+  507  ls
+  508  vi get-smart-plug-status
+  509  ls
+  510  chmod +x get-smart-plug-status 
+  511  ./get-smart-plug-status 
+  512  vi get-smart-plug-status
+  513  ./get-smart-plug-status 
+  514  cat get-smart-plug-status 
+  515  mosquitto_pub -t 'zigbee2mqtt/0x00124b0025139c1e -m ''
+  516  mosquitto_pub -t 'zigbee2mqtt/0x00124b0025139c1e' -m ''
+  517  mosquitto_sub -t 'zigbee2mqtt/0x00124b0025139c1e' -m ''
+  518  mosquitto_sub -t 'zigbee2mqtt/0x00124b0025139c1e'
+  519  vi get-smart-plug-status
+  520  ls
+  521  ./get-smart-plug-status 
+  522  snap services
+  523  sudo snap logs edgex-device-rest
+  524  sudo snap start edgex-device-rest
+  525  snap services
+  526  ls
+  527  cd
+  528  cd my-workspace/
+  529  ls
+  530  cd mqtt-apps/
+  531  ls
+  532  python3 process-zigbee2mqtt.py 
+  533  python3 process-zigbee2mqtt.py \
+  534  python3 process-zigbee2mqtt.py 
+  535  history | grep mos
+  536  fg
+  537  cd /var
+  538  cd snap
+  539  ls
+  540  cd edgexfoundry/
+  541  ls
+  542  cd current
+  543  ls
+  544  cd kuiper
+  545  ls
+  546  cd data
+  547  ls
+  548  cd ..
+  549  ls
+  550  cd plugins/
+  551  ls
+  552  cd sources
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd sinks
+  557  ls
+  558  cd ..
+  559  ls
+  560  cd data
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd ..
+  565  ls
+  566  cd config/
+  567  l
+  568  ls
+  569  sudo snap stop edgexfoundry.device-virtual
+  570  snap services
+  571  sudo snap set edgexfoundry device-virtual=false
+  572  sudo snap set edgexfoundry device-virtual=off
+  573  snap services
+  574  snap list
+  575  cd 
+  576  cd my-workspace/
+  577  ls
+  578  cd mqtt-apps/
+  579  LS
+  580  ls
+  581  python3 control-smart-plug.py -h
+  582  python3 control-smart-plug.py -d 0x00124b0025139c1e 
+  583  python3 control-smart-plug.py -d 0x00124b0025139c1e -s ON
+  584  python3 control-smart-plug.py -d 0x00124b0025139c1e 
+  585  ls
+  586  pwd
+  587  s
+  588  pwd
+  589  ls
+  590  pwd
+  591  ls
+  592  mosquitto_pub
+  593  mosquitto_pub -t 'zigbee2mqtt/bridge/info'
+  594  mosquitto_pub -t 'zigbee2mqtt/bridge/info' -m ""
+  595  mosquitto_pub -t 'zigbee2mqtt/bridge/state' -m "online"
+  596  mosquitto_pub -t 'zigbee2mqtt/bridge/state' -m "offline"
+  597  mosquitto_pub -t 'zigbee2mqtt/bridge/state' -m "online"
+  598  mosquitto_pub -t 'zigbee2mqtt/bridge/state' -m "asdfasdf"
+  599  mosquitto_pub -t 'zigbee2mqtt/bridge/request/healt_check' -m ""
+  600  mosquitto_pub -t 'zigbee2mqtt/bridge/request/health_check' -m ""
+  601  ls
+  602  mkdir 
+  603  python3 control-smart-plug.py -d 0x00124b0025139c1e 
+  604  ls
+  605  mkdir edgex
+  606  cd edgex
+  607  ls
+  608  mv ~/Downloads/createRESTDevice.py .
+  609  mv ~/Downloads/RESTDeviceProfile.yaml .
+  610  ls
+  611  pip install requests_toolbelt
+  612  ls
+  613  vi RESTDeviceProfile.yaml 
+  614  mv RESTDeviceProfile.yaml smart-plug-device-profile.yaml
+  615  ls
+  616  cat smart-plug-device-profile.yaml 
+  617  ls
+  618  vi smart-plug-device-profile.yaml 
+  619  ls
+  620  python3 createRESTDevice.py 
+  621  python3 createRESTDevice.py -ip localhost -devip localhost
+  622  ls
+  623  git clone https://github.com/jonas-werner/colorChange.git
+  624  git clone https://github.com/jonas-werner/colorChanger.git
+  625  ls
+  626  mv colorChanger/ mqqt-device-gateway
+  627  cd mqqt-device-gateway/
+  628  ls
+  629  vi Dockerfile 
+  630  ls
+  631  cd static/
+  632  ls
+  633  cd ..
+  634  ls
+  635  vi Dockerfile 
+  636  pip install flask
+  637  pip install flask_restful
+  638  ls
+  639  python3 app.py
+  640  history | grep mos
+  641  fg
+  642  python3 app.py
+  643  ls
+  644  ./get-smart-plug-status 
+  645  snap services
+  646  sudo snap logs edgexfoundry.kuiper
+  647  vi a
+  648  history | grep mos
+  649  ls
+  650  cd mydocument
+  651  ls
+  652  cd my-workspace/
+  653  ls
+  654  cd mqtt-apps/
+  655  ls
+  656  cd edgex-rest2mqtt-bridge/
+  657  ls
+  658  ls -a
+  659  rm -fr .git
+  660  ls
+  661  cd ..
+  662  ls
+  663  cd ..
+  664  mkdir iot
+  665  cd iot
+  666  ls
+  667  cd ,
+  668  cd ..
+  669  rm -fr iot
+  670  ls
+  671  git clone https://github.com/hsl1230/iot.git
+  672  cd iot
+  673  ls
+  674  cp -fr ../my-workspace/* .
+  675  ls
+  676  ls -lrt
+  677  git add .
+  678  cd edgex-config-provider/
+  679  s
+  680  ls 
+  681  rm -fr .git
+  682  cd ..
+  683  git add .
+  684  ls
+  685  git commit -m "iot"
+  686  git config --global user.email "hslcalgary@gmail.com"
+  687  git config --global user.name "henry"
+  688  git commit -m "iot"
+  689  git push
+  690  ls
+  691  pwd
+  692  ls -lrt
+  693  pwd
+  694  mkdir zigbee2mqtt-config
+  695  cd zigbee2mqtt-config/
+  696  cp /opt/zigbee2mqtt/data/configuration.yaml .
+  697  ls
+  698  cd ..
+  699  ls
+  700  git add .
+  701  git commit -m "add zigbee2mq config"
+  702  git push
+  703  vi git-token
+  704  git add .
+  705  git commit -m "add git login token"
+  706  git push
+  707  vi git-token 
+  708  git add .
+  709  git commit -m "add user name of git hub"
+  710  git push
+  711  vi git-token 
+  712  git commit -, "update token"
+  713  git commit -m "update token"
+  714  git add .
+  715  git commit -m "update token"
+  716  git push
+  717  ls
+  718  pwd
+  719  ls
+  720  pwd
+  721  ls
+  722  history | grep pip
+  723  history | grep pip > python.install
+  724  cat python.install 
+  725  history | grep python
+  726  history | grep apt
+  727  history | grep apt > apt.install
+  728  history | grep snap
+  729  history | grep snap > snap.install 
+  730  ls
+  731  history | grep wget
+  732  vi snap.install 
+  733  ls
+  734  vi apt.install 
+  735  ls
+  736  vi python.install 
+  737  ls
+  738  history > install

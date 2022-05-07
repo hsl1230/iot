@@ -1,0 +1,7 @@
+  431  sudo apt install python3-pip
+  432  sudo pip3 install --upgrade setuptools
+  434  pip install paho-mqtt
+  464  pip install requests
+  611  pip install requests_toolbelt
+  636  pip install flask
+  637  pip install flask_restful
