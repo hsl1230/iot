@@ -1,0 +1,198 @@
+    1  sudo apt update
+    2  sudo apt install snapd
+    3  sudo snap install core
+    4  sudo snap install edgex-ui
+    5  snap services
+    6  sudo snap install edgexfoundry
+    7  sudo snap install edgex-device-gpio
+    8  sudo snap install --edge edgex-device-gpio
+    9  sudo snap install edgex-app-service-configurable
+   10  sudo snap install edgex-device-rest
+   11  snap services
+   12  sudo snap set edgexfoundry kuiper=on
+   13  sudo snap set edgexfoundry app-service-configurable=on
+   14  sudo snap set edgexfoundry support-notifications=on
+   15  sudo snap set edgexfoundry support-scheduler=on
+   16  snap services
+   17  sudo snap set edgexfoundry sys-mgmt-agent=on
+   18  snap services
+   19  sudo snap connections
+   20  ls
+   21  sudo snap connections
+   22  sudo snap connections -all
+   23  sudo snap connections --all
+   24  mkdir token
+   25  cd token
+   26  s
+   27  vi create-key
+   28  vi create-user
+   29  vi gen-token
+   30  ls
+   31  pwd
+   32  ls
+   33  sudo snap start edgexfoundry device-virutal
+   34  snap services
+   35  sudo snap start edgexfoundry device-virtual
+   36  sudo snap start edgexfoundry.device-virtual
+   37  snap services
+   38  sudo snap logs edgexfoundry.device-virtual
+   39  sudo snap stop edgexfoundry.device-virtual
+   40  snap services
+   41  sudo snap logs edgexfoundry.device-virtual
+   42  ls
+   43  chmod +x *
+   44  ls -l
+   45  ./create-key
+   46  ls
+   47  ls -l
+   48  ./create-user
+   49  sudo snap start edgexfoundry.device-virtual
+   50  sudo snap set  edgexfoundry device-virtual=on
+   51  snap services
+   52  sudo snap restart edgexfoundry
+   53  snap services
+   54  sudo snap logs edgexfoundry
+   55  sudo snap stop edgexfoundry
+   56  snap services
+   57  sudo snap start edgexfoundry
+   58  ls
+   59  ./gen-token
+   60  vi gen-token 
+   61  ./gen-token 
+   62  cd ..
+   63  ls
+   64  exit
+   65  cd /var/snap
+   66  ls
+   67  cd edgex-device-gpio
+   68  ls
+   69  cd current
+   70  ls
+   71  cd config
+   72  ls
+   73  cd device-gpio/
+   74  ls
+   75  cd res/
+   76  ls
+   77  vi configuration.toml 
+   78  ks
+   79  ls
+   80  cd devices/
+   81  ls
+   82  cat device.custom.gpio.toml 
+   83  cd ..
+   84  ls
+   85  cd device-gpio/
+   86  ls
+   87  cat secrets-token.json 
+   88  sudo cat secrets-token.json 
+   89  cd ..
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd current
+   94  ls
+   95  cd device-gpio/
+   96  ls
+   97  sudo cat secrets-token.json 
+   98  exit
+   99  cd /var/snap/edgex-device-gpio/current
+  100  ls
+  101  cd config
+  102  ls
+  103  cd device-gpio/
+  104  ls
+  105  cd res
+  106  ls
+  107  cd ..
+  108  ls
+  109  exit
+  110  snap services
+  111  ls
+  112  cd toke
+  113  cd token
+  114  ls
+  115  sudo snap logs edgexfoundry.app-service-configurable
+  116  ls
+  117  pwd
+  118  sudo snap start --enable edgex-device-gpio
+  119  snap services
+  120  sudo snap logs edgex-device-gpio
+  121  ls
+  122  ./gen-token
+  123  ls /sys
+  124  ls /sys/devices/
+  125  ls /sys/
+  126  ls /sys/class/
+  127  ls /sys/class/gpio/
+  128  ls /sys/class/gpio/gpio17
+  129  ls /sys/class/gpio/gpio17/value 
+  130  cat /sys/class/gpio/gpio17/value 
+  131  sudo snap connections edgex-device-gpio
+  132  sudo snap connect edgex-device-gpio:gpio pi:bcm-gpio-17
+  133  sudo snap interface gpio
+  134  sudo snap insall pi
+  135  sudo snap install pi
+  136  sudo snap install --edge pi
+  137  sudo snap remove pi
+  138  sudo snap install --beta pi
+  139  sudo snap connect edgex-device-gpio:gpio pi:bcm-gpio-17
+  140  sudo snap list
+  141  pinout
+  142  python
+  143  ls /system/
+  144  sudo ls /sys
+  145  sudo ls /sys/class/
+  146  sudo ls /sys/class/gpio/
+  147  sudo ls /sys/class/gpio/export 
+  148  cd ..
+  149  cd token/
+  150  ls /sys/
+  151  ls /sys/class
+  152  ls /sys/class/gpio
+  153  sudo apt update
+  154  sudo apt full-upgrade
+  155  sudo apt install python3-pip
+  156  sudo pip3 install --upgrade setuptools
+  157  sudo reboot
+  158  sudo pip3 install --upgrade adafruit-python-shell
+  159  ls
+  160  cd Documents/
+  161  ls
+  162  cd ..
+  163  mkdir experiments
+  164  cd experiments/
+  165  mv ~/Documents/*.py .
+  166  ls
+  167  wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+  168  ls
+  169  sudo python3 raspi-blinka.py 
+  170  snap services
+  171  pip3 install adafruit-circuitpython-dht
+  172  cd experiments/
+  173  ls
+  174  sudo apt-get install libgpiod2
+  175  ls
+  176  vi blink.py
+  177  snap services
+  178  ls 0lrt
+  179  ls -lrt
+  180  pw
+  181  pwd
+  182  ls
+  183  sudo snap services
+  184  sudo snap start --enable edgex-device-rest
+  185  sudo snap services
+  186  ls
+  187  df -m
+  188  pwd
+  189  git
+  190  git clone https://github.com/hsl1230/iot.git
+  191  cd iot/
+  192  ls
+  193  cd command-history/
+  194  ls
+  195  cat python.commands 
+  196  history 
+  197  ls
+  198  history >all0.commands
