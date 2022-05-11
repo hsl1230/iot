@@ -9,7 +9,7 @@ mqttBroker = "localhost"
 client = mqtt.Client("zigbee2mqtt-json-1")
 client.connect(mqttBroker)
 
-client.subscribe("zigbee2mqtt/0x00124b00251f6ccc/json")
+client.subscribe("zigbee2mqtt/0x00124b00251f6ccc")
 client.on_message = on_message
 
 client.loop_forever()
