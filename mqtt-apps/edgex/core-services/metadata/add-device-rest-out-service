@@ -1,0 +1,3 @@
+payload="[{\"requestId\":\"`uuid`\","
+payload+='"apiVersion":"v2","service":{"name":"device-rest-out","description":"Gateway for sending commands to external mqtt devices","adminState":"UNLOCKED","labels":["color","mqtt","gateway"],"baseAddress":"http://localhost:5000"}}]'
+curl -X POST -H "Content-Type: application/json" -d "$payload" "http://localhost:59881/api/v2/deviceservice"

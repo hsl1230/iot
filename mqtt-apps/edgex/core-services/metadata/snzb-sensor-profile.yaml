@@ -1,0 +1,64 @@
+name: snzb-sensor-profile
+manufacturer: SONOFF
+description: REST Device that sends in humidity and temperature
+model: SNZB-02
+labels: [rest, SONOFF, SNZB-02, temperature, humidity]
+deviceResources:
+- description: temerature value
+  name: temperature
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float64 
+    readWrite: R
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: text/plain
+  attributes: {}
+- description: humidity value
+  name: humidity
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float64
+    readWrite: R
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: text/plain
+  attributes: {}
+- description: Sensor data JSON message
+  name: sensorData
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Object
+    readWrite: R
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: application/json
+  attributes: {}
+deviceCommands: []

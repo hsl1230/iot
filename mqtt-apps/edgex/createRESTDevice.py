@@ -58,7 +58,7 @@ def createDeviceService():
         "requestId": str(uuid.uuid1()),
         "apiVersion": "v2",
         "service": {
-            "name":"rest2mqtt-device-service",
+            "name":"device-rest-out",
             "description":"Gateway for sending commands to external mqtt devices",
             "adminState":"UNLOCKED",
             "labels":["color","mqtt", "gateway"],
@@ -97,7 +97,7 @@ def addNewDevice():
                 "smart plug"
             ],
             "location": "calgary",
-            "serviceName": "rest2mqtt-device-service",
+            "serviceName": "device-rest-out",
             "profileName": "smart-plug-profle"
         }
     }]

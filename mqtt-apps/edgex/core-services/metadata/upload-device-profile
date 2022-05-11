@@ -1,0 +1,1 @@
+curl -F "file=@$1" http://localhost:59881/api/v2/deviceprofile/uploadfile
